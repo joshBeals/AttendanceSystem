@@ -1,0 +1,125 @@
+.panel{
+    width: 80%;
+    height: 90px;
+    background: #eee;
+    border-radius: 5px 5px 0px 0px;
+    margin: auto;
+    box-shadow: 1px -1px 3px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel div{
+    flex: 1;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    font-size: 15px;
+    font-family: "Maiandra Gd";
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 1px 1px 10px grey;
+    align-self: center;
+}
+.add{
+    float: left;
+    margin-left: 20px;
+    background: seagreen;
+}
+.view{
+    float: right;
+    margin-right: 20px;
+    background: slateblue;
+}
+.mark{
+    background: brown;
+}
+.form-div{
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    box-shadow: 1px 2px 10px #eee;
+    border: 1px solid #eee;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+    display: none;
+}
+label, .input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 20px;
+}
+.input{
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: .2px .2px 2px grey;
+    padding: 10px 20px;
+}
+.input:last-of-type{
+    margin-bottom: 20px;
+}
+form .btn{
+    background: slateblue;
+}
+#alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 20px;
+}
+.viewall{
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 2px 10px #eee;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+    display: none;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+.row:nth-child(odd){
+    background: #eee;
+}
+.show{
+    display: block;
+}
+
+.attend{
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 2px 10px #eee;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 30px;
+}
+.attend .btn{
+    background: slateblue;
+    margin-left: 10px;
+}
+.today{
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
